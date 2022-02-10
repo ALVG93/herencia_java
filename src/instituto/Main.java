@@ -93,6 +93,7 @@ public class Main {
 		Alumno alumno = new Alumno(nombre, apellido1, apellido2, DNI, edad, 0, 0);
 		alumnos.add(alumno);
 		System.out.print("Alumno agregado correctamente.\n\n");
+		
 		in.close();
 	}
 	
